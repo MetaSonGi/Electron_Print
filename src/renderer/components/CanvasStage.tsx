@@ -1,6 +1,6 @@
 import { Stage, Layer, Rect, Text } from 'react-konva';
 import { useCanvasStore } from '../store/canvasStore';
-import type { CanvasShape } from '../types';
+import type { CanvasShape } from '../type';
 
 export default function CanvasStage() {
   const { shapes, stage, moveShape, select, selectedId } = useCanvasStore();
