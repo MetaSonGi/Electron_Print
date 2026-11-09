@@ -18,7 +18,7 @@ const initial: CanvasState = {
   selectedId: null,
 };
 
-export const useCanvasStore = create<CanvasState & Actions>((set, get) => ({
+export const useCanvasStore = create<CanvasState & Actions>((set) => ({
   ...initial,
   addRect: () =>
     set((s) => {
